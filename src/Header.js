@@ -10,7 +10,8 @@ function Header() {
           <Link to="/">
           <img className="header--logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon"/>
           </Link>
-        
+          
+          
           <div className="header--search">
           <input className="header--searchInput" type="text" />
           {/* Material UI */}
@@ -40,9 +41,8 @@ function Header() {
           <span className="header--optionLineTwo header--basketCount">0</span>
           </div>
           </Link>
-
-
-
+          
+          
         </div>
     )
 }
